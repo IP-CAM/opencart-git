@@ -1,0 +1,194 @@
+#header{
+	border-bottom: 1px solid #ddd;
+}
+
+.navbar .nav > li .dropdown-menu {
+	margin: 0;
+}
+.navbar .nav > li:hover .dropdown-menu {
+	display: block;
+}
+
+
+.jumbotron{
+position:relative;
+background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, from(rgb(12, 83, 142)), to(rgb(99, 159, 208)));
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#020031', endColorstr='#6d3353', GradientType=1);
+background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,#0c538e),color-stop(100%,#639fd0));
+webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2),inset 0 -3px 7px rgba(0,0,0,.2);
+-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2),inset 0 -3px 7px rgba(0,0,0,.2);
+background: -webkit-linear-gradient(45deg,#0c538e 0,#639fd0 100%);
+background: -o-linear-gradient(45deg,#0c538e 0,#639fd0 100%);
+background: -ms-linear-gradient(45deg,#0c538e 0,#639fd0 100%);
+box-shadow: inset 0 3px 7px rgba(0,0,0,.2),inset 0 -3px 7px rgba(0,0,0,.2);
+background: -moz-linear-gradient(45deg,#0c538e 0,#639fd0 100%);
+background-position-x: initial;
+background-position-y: initial;
+background-size: initial;
+background-repeat-x: initial;
+background-repeat-y: initial;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: initial;;
+color:white;
+padding-top:70px;
+padding-bottom:90px;
+}
+
+.jumbotron:after{
+content: '';
+display: block;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url(http://static.bootcss.com/www/assets/img/bs-docs-masthead-pattern.png) repeat center center;
+opacity: .6;
+
+}
+
+.jumbotron a {
+	position:relative;
+	z-index:999;
+}
+.masthead-button-links{
+	margin-top:30px;
+	margin-bottom:10px;
+	z-index: -8;
+}
+.product-info{
+	background-color: #FFF;
+	opacity: .85;
+	color:#000;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	
+}
+.product-info a{
+	color:#000;
+	font-size: 16px;
+}
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  padding-left:10%;
+  padding-right: 10%;
+}
+.thumbnail > img,
+.thumbnail a > img {
+	width:100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #428bca;
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+
+
+#location{
+	background-image: url(http://127.0.0.1/opencart/upload/image/data/location.jpg);
+	height:520px;
+	margin-bottom: 0px;
+}
+.thumnail{
+	margin-bottom: 30px;
+	padding:4px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+
+.thumnail img{
+	width:200px;
+	height:200px;
+
+}
+
+#intro{
+	margin-bottom: 0px;
+	background: white;
+	margin:0;
+	padding:0;
+
+}
+
+#intro div{
+	padding-left:0px;
+	padding-right: 0px;
+	text-align: right;
+}
+
+#equipment{
+	margin-bottom: 0px;
+	padding:0 0 0 0;
+
+}
+
+#equipment >div >div{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+#equipment >div{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+.center{
+	text-align: center;
+}
+
+#service{
+	margin-bottom: 0px;
+	background: white;	
+	margin:0;
+	padding:0;
+
+}
+
+#service div{
+	padding-left:0px;
+	padding-right: 0px;
+	text-align: right;
+}
+
+
+#footer{
+	background:#333333;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+#footer p{
+	color:#FFF;
+}
+.footer-nav li{
+	float:left;
+	border-right-color: rgb(255, 255, 255);
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+.footer-nav li:last-child{
+	float:left;
+	border-right-color: none;
+	border-right-style: solid;
+	border-right-width: 0px;
+}
+.footer-nav li a {
+	text-decoration: none;
+	padding-left:7px;
+	padding-right:7px;
+	color:#FFF;
+}
+.footer-nav li a:hover{
+	color:#4183bc;
+}
